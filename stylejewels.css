@@ -1,0 +1,65 @@
+body{
+    background :rgb(161, 153, 153);
+    animation-name: example;
+    animation-duration: 20s;
+   
+    
+}
+@keyframes example {
+   from{background:rgb(131, 177, 26) ;}
+   to{background: rgb(12, 170, 209) ;}
+  
+}
+h1{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(6, 7, 6)
+  }
+h1:hover{
+    background-color: rgb(15, 15, 15);
+    color:rgb(228, 221, 221);
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+h3{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(6, 7, 6)
+  }
+h3:hover{
+    background-color: rgb(15, 15, 15);
+    color:rgb(181, 197, 92);
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+.nav{
+  display:inline;
+  cursor: pointer;
+  background-color:rgb(161, 153, 153);
+  color: rgb(19, 20, 20);
+  font-size: larger;
+  padding:4px;
+  float:right;
+  padding-left: 20px;
+ }
+.nav:hover{
+  background-color:rgb(169, 238, 105);
+  font-weight:bolder;
+ }
+.gold{
+  display: block;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 90px;
+  text-align: center;
+
+}
+img{
+  border-radius: 8px;
+  width:80%;
+  height: 40%;
+}
